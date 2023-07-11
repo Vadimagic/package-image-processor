@@ -1,0 +1,20 @@
+{
+  "name": "@icons8/i8-image-processor",
+  "version": "0.0.0",
+  "description": "Convert PNG to JPEG if no alpha channel is used. Compress to <5 mb by downsampling.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Bida, Sergey Skrynnikov, Nikita Oralov",
+  "keywords": [
+    "i8",
+    "image-processor"
+  ],
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "image-blob-reduce": "^4.1.0"
+  }
+}
